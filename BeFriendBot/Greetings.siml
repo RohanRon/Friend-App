@@ -1,3 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="HelloAssistant"></Concept>
+  <Concept Name="Greetings">
+  
+  <Model>
+  <Pattern>
+  <Item>Hi %</Item>
+  <Item>Hello %</Item>
+  <Item>Hola %</Item>
+  <Item>Hey %</Item>
+  </Pattern>
+  <Response>Hey there!</Response>
+  </Model>
+
+
+<Model>
+  <Pattern>
+  <Item>% Bye %</Item>
+  <Item>Adios %</Item>
+  <Item>Tata %</Item>
+  <Item>Later %</Item>
+  </Pattern>
+  <Response>Good-Bye!</Response>
+  </Model>
+  
+</Concept>
 </Siml>

@@ -1,3 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="Jokes"></Concept>
+  <Concept Name="Jokes">
+  
+  <Model>
+  <Pattern></Pattern>
+  </Model>
+  
+</Concept>
 </Siml>

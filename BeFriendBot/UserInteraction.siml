@@ -1,3 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="UserDetails"></Concept>
+  <Concept Name="UserDetails">
+  
+  <Model>
+  <Pattern>
+  <Item>WHAT IS YOUR NAME</Item>
+  <Item>WHO ARE YOU</Item>
+  </Pattern>
+  <Response>I am <Bot Get="Name" /></Response>
+  </Model>
+  
+  <Model>
+  <Pattern>
+  <Item>MY NAME IS *</Item>
+  <Item>I AM *</Item>
+  </Pattern>
+  <Response>Awesome Name <User Set="NAME"><Match /></User></Response>  
+  </Model>
+  
+  <Model>
+  <Pattern>
+  <Item>WHO AM I</Item>
+  <Item>WHAT IS MY NAME</Item>
+  <Item>DO YOU KNOW ME</Item>
+  </Pattern>
+  <Response>You are <User Get="NAME" /></Response>
+  </Model>
+  
+  <Model>
+  <Pattern>WHAT DAY IS IT</Pattern>
+  <Response>It's <Date Get="weekday" /></Response>
+  </Model>
+
+  <Model>
+  <Pattern>WHAT MONTH IS IT</Pattern>
+  <Response>It's <Date Get="Month" /></Response>
+  </Model>
+  
+  <Model>
+  <Pattern>WHAT YEAR IS IT</Pattern>
+  <Response>It's <Date Get="year" /></Response>
+  </Model>
+
+  <Model>
+  <Pattern>WHAT ERA IS IT</Pattern>
+  <Response>It's <Date Format="gg" /></Response>
+  </Model>
+  
+  
+</Concept>
 </Siml>

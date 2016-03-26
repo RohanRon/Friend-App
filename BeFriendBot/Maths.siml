@@ -1,3 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Concept Name="Maths"></Concept>
+  <Concept Name="Maths">
+  
+  <Model>
+  <Pattern>CALCULATE *</Pattern>
+  <Response>The answer is <Math><Match /></Math></Response>
+  </Model>
+  
+  <Model>
+  <Pattern>HOW MANY LETTERS ARE THERE IN THE WORD *</Pattern>
+  <Response>There are <Text Get="Length"><Match /></Text> letters in the word <Match /></Response>
+</Model>
+  
+  
+</Concept>
 </Siml>
