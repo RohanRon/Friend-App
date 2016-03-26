@@ -6,7 +6,7 @@
 
     <Model>
       <Pattern>HELLO</Pattern>
-      <Response>Hello User!</Response>
+      <Response>Hi</Response>
     </Model>
 
   </Concept>
