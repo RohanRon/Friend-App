@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<simlproject>
+  <name>BeFriend Bot</name>
+  <directory>BeFriendBot</directory>
+  <botname>Tom</botname>
+  <personality>Funny, Sometimes Mean</personality>
+  <author>Prajjwal;Gaurav;Tajbar</author>
+  <description>A bot created for Befriend App</description>
+  <date>11:46:55 AM, Saturday, March 26, 2016</date>
+</simlproject>
