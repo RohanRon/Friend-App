@@ -5,9 +5,26 @@
   <Concept Type="public" Name="Hello Assistant">
 
     <Model>
-      <Pattern>HELLO</Pattern>
+      <Pattern>
+            <Item>HELLO %</Item>
+            <Item>HI %</Item>
+        </Pattern>
       <Response>Hi</Response>
     </Model>
+    <Model>
+    <Pattern>FEELING % BAD %</Pattern>
+    <Response>WHAT HAPPENED?</Response>
+    </Model>
+   <Model><Pattern>J</Pattern>
+    <Response>DO YOU LIKE JOKE</Response></Model> 
+    
+<Model>
+ 
+<Pattern>YES</Pattern>
+<Previous>DO YOU LIKE JOKE</Previous>
+<Response>DON'T WORRY.I CAN TELL YOU A JOKE</Response>
+
+</Model>
 
   </Concept>
 </Siml>
